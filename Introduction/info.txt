@@ -1,0 +1,2 @@
+In this we will learn about DOM(Document Oriented Model)
+The DOM represnts a document with a logical tree, It allows us to manipulate/change webpage content (HTML elements).
