@@ -6,3 +6,5 @@ ________________________________________________________________________________
 1 -> Selecting Elements, How we select elements in DOM?
 getElementById, It's a method in document object
 -> returns the element as an object or null (if not found).
+
+2-> getElementByClassName
