@@ -12,3 +12,13 @@ Returns the elements as an HTML Collection or empty collection (if not found), A
 
 3-> getElementByTagName
 Returns the Elements as an HTML collection or empty collection (if not found)
+
+____________________________________________________________________________________________________________________
+
+Query Selector, very similar to our CSS selector,
+Allows us to use any CSS selector
+eg 
+document.querySelector('p') //Select first p element
+document.querySelector('#myId') //Selects first element with id = myId
+document.querySelector('.myClass') //Selects first element with class = myClass
+document.querySelectorAll('"p"') //Selects all p elements
