@@ -8,3 +8,4 @@ getElementById, It's a method in document object
 -> returns the element as an object or null (if not found).
 
 2-> getElementByClassName
+Returns the elements as an HTML Collection or empty collection (if not found), A collection similar to array but is not an array actually.
