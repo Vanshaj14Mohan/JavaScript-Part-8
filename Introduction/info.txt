@@ -30,3 +30,4 @@ Using Properties and Methods
 2: textContent -> Shows all the full text
 3: innerHtml -> Shows the full markup
 4: outerHtml -> Shows the full markup of the element and its children
+_____________________________________________________________________________________________________________________
