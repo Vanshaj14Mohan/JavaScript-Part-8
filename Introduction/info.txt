@@ -22,3 +22,11 @@ document.querySelector('p') //Select first p element
 document.querySelector('#myId') //Selects first element with id = myId
 document.querySelector('.myClass') //Selects first element with class = myClass
 document.querySelectorAll('"p"') //Selects all p elements
+
+____________________________________________________________________________________________________________________
+
+Using Properties and Methods
+1: innerText -> Shows the visible text contained in a node
+2: textContent -> Shows all the full text
+3: innerHtml -> Shows the full markup
+4: outerHtml -> Shows the full markup of the element and its children
