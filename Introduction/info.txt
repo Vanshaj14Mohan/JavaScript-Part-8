@@ -31,3 +31,9 @@ Using Properties and Methods
 3: innerHtml -> Shows the full markup
 4: outerHtml -> Shows the full markup of the element and its children
 _____________________________________________________________________________________________________________________
+
+Manipulating Attributes -> id, class, style, img
+2 methods
+1: obj.getAttribute(attr) -> For any object it gives us a specific attribute value.
+2: obj.setAttribute('attribute', 'value') -> Sets the value of an attribute
+we simply call them getters & setters.
