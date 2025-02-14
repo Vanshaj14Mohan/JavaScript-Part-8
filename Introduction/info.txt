@@ -37,3 +37,4 @@ Manipulating Attributes -> id, class, style, img
 1: obj.getAttribute(attr) -> For any object it gives us a specific attribute value.
 2: obj.setAttribute('attribute', 'value') -> Sets the value of an attribute
 we simply call them getters & setters.
+_____________________________________________________________________________________________________________________
