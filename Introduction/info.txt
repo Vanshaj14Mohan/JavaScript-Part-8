@@ -12,7 +12,6 @@ Returns the elements as an HTML Collection or empty collection (if not found), A
 
 3-> getElementByTagName
 Returns the Elements as an HTML collection or empty collection (if not found)
-
 ____________________________________________________________________________________________________________________
 
 Query Selector, very similar to our CSS selector,
