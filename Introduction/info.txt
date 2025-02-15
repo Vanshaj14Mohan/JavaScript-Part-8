@@ -1,7 +1,6 @@
 In this we will learn about DOM(Document Oriented Model)
 The DOM represnts a document with a logical tree, It allows us to manipulate/change webpage content (HTML elements).
 ie -> Whenever we write an HTMl + CSS code so when it gets transformed in a logical tree form in JavaScript.
-
 ____________________________________________________________________________________________________________
 1 -> Selecting Elements, How we select elements in DOM?
 getElementById, It's a method in document object
