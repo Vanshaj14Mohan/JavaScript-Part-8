@@ -11,4 +11,4 @@
 // console.dir(document.querySelector(".oldImg"));
 
 console.dir(document.querySelector("div a"));
-console.dir(document.querySelectorAll("div a"));
+console.dir(document.querySelectorAll("div a")); //for all anchor tags in div
