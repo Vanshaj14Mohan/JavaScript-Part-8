@@ -42,8 +42,9 @@ All the changes we make is not set inside css file,
 
 Now to set our class values we use classList
 obj.classList -> For every object we can check it's classList
-
+eg:
 classList.add() to add new class
 classList.remove() to remove classes
 classList.contains() to check if class exists
 classList.toggle() to toggle between add and remove
+________________________________________________________________________________________________________________________
