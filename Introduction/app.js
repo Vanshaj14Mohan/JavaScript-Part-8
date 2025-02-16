@@ -12,3 +12,13 @@
 
 console.dir(document.querySelector("div a"));
 console.dir(document.querySelectorAll("div a")); //for all anchor tags in div
+
+let links = document.querySelectorAll(".box a"); //printing color for all anchor tags present in .box
+
+// for(link of links){ using for of loop better way
+//     link.style.color = "Red";
+// }
+
+for(let i = 0; i<links.length; i++){
+    links[i].style.color = "Purple";
+}
