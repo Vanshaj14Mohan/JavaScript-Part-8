@@ -39,3 +39,11 @@ Now how to manipulate styling
 using obj.style property, we don't use it frequently to set our style property.
 We can access only inline styling too through this property.
 All the changes we make is not set inside css file,
+
+Now to set our class values we use classList
+obj.classList -> For every object we can check it's classList
+
+classList.add() to add new class
+classList.remove() to remove classes
+classList.contains() to check if class exists
+classList.toggle() to toggle between add and remove
