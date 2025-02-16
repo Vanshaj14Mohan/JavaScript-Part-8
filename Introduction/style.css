@@ -26,3 +26,14 @@ body {
 #description {
   background-color: antiquewhite;
 }
+
+/* _______________________________ */
+.green{
+  color:green;
+}
+
+.underline{
+  text-decoration: underline wavy;
+}
+
+/* _____________________________________ */
