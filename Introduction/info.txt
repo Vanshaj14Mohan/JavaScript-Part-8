@@ -34,7 +34,7 @@ Manipulating Attributes -> id, class, style, img
 1: obj.getAttribute(attr) -> For any object it gives us a specific attribute value.
 2: obj.setAttribute('attribute', 'value') -> Sets the value of an attribute
 we simply call them getters & setters.
-_____________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 Now how to manipulate styling 
 using obj.style property, we don't use it frequently to set our style property.
 We can access only inline styling too through this property.
