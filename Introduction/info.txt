@@ -47,4 +47,4 @@ classList.add() to add new class
 classList.remove() to remove classes
 classList.contains() to check if class exists
 classList.toggle() to toggle between add and remove
-________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________
