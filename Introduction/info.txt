@@ -67,4 +67,16 @@ document.createElement("p") -> to create an element in our document.
 eg let body = document.querySelector("body")
    body.appendChild(newP)
 
-2: append(element) -> can append any element or even an string too
+2: append(element) -> can append any element or even an string/text too, adds from the ending
+Generally we use append more than appendChild
+eg: box.append(newP)
+
+3: prepend(element) -> adds from the starting
+eg: box.prepend(newP)
+
+4: insertAdjacentElement(where,element) -> exactly where we wanna add our element.
+check on insertAdjacentElement mdn, We have 4 cases here:
+'beforebegin': Before the targetElement itself.
+'afterbegin': Just inside the targetElement, before its first child.
+'beforeend': Just inside the targetElement, after its last child.
+'afterend': After the targetElement itself.
