@@ -61,3 +61,8 @@ eg:
 eg div = document.querySelector(".box)
 div.children or div.childElementCount
 _______________________________________________________________________________________________________________________
+Adding Elements, how we can add elements in our documents.
+document.createElement("p") -> to create an element in our document.
+appendChild(element) -> to add an element to the document.
+eg let body = document.querySelector("body")
+   body.appendChild(newP)
