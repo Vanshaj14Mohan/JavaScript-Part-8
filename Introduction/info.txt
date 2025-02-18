@@ -58,3 +58,6 @@ eg:
 <h1> here h1 and p are child of div and div is their parent
 <p>
 <div>
+eg div = document.querySelector(".box)
+div.children or div.childElementCount
+_______________________________________________________________________________________________________________________
