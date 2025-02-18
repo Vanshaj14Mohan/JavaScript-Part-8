@@ -48,3 +48,13 @@ classList.remove() to remove classes
 classList.contains() to check if class exists
 classList.toggle() to toggle between add and remove
 _______________________________________________________________________________________________________________________
+Navigation on Page
+3 types of property
+parentElement
+children
+previousElementSibling/ nextElementSibling
+eg:
+<div>
+<h1> here h1 and p are child of div and div is their parent
+<p>
+<div>
