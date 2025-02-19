@@ -80,3 +80,8 @@ check on insertAdjacentElement mdn, We have 4 cases here:
 'afterbegin': Just inside the targetElement, before its first child.
 'beforeend': Just inside the targetElement, after its last child.
 'afterend': After the targetElement itself.
+_______________________________________________________________________________________________________________________
+Deleting Elements, how we can delete elements in our documents.
+1: removeChild(element)
+2: remove(element)
+same logic as we did with append one.
