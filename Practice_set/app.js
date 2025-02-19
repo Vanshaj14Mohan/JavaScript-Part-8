@@ -1,6 +1,6 @@
 // Q-1
 let quesOne = document.createElement("p");
-quesOne.innerText = "Color change to red";
+quesOne.innerText = "Hey, I'm red";
 document.querySelector("body").append(quesOne);
 
 quesOne.classList.add("red");
