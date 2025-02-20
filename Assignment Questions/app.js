@@ -19,3 +19,12 @@ input.setAttribute("placeholder", "username");
 //3 -> Access the btn using the querySelector and button id. Change the button background color to blue and text color to white.
 btn = document.querySelector(".btn");
 //done above.
+
+//4 -> Create an h1 element on the page and it's text to "DOM Practice" underlined. Change it's color to purple.
+h1 = document.createElement("h1");
+h1.innerText = "DOM Practice";
+h1.classList.add("h1");
+
+document.body.appendChild(h1);
+
+
