@@ -4,7 +4,7 @@ let input = document.createElement("input");
 let br = document.createElement("br");
 
 btn.innerText = "Click Me";
-btn.classList.add("btn"); 
+btn.classList.add(".btn"); 
 
 document.querySelector("body").append(btn);
 document.querySelector("body").append(br);
@@ -16,3 +16,6 @@ document.querySelector("body").append(input);
 btn.setAttribute("id","btn")
 input.setAttribute("placeholder", "username");
 
+//3 -> Access the btn using the querySelector and button id. Change the button background color to blue and text color to white.
+btn = document.querySelector(".btn");
+//done above.
