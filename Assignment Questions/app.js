@@ -1,19 +1,20 @@
 //1 -> Create a new input and button element on the page using JavaScript only. Set the text button to "Click Me"
-let btn = document.createElement("button");
+let button = document.createElement("button");
 let input = document.createElement("input");
 let br = document.createElement("br");
+button.classList.add("btn"); 
 
-btn.innerText = "Click Me";
-btn.classList.add(".btn"); 
+button.innerText = "Click Me";
 
-document.querySelector("body").append(btn);
+
+document.querySelector("body").append(button);
 document.querySelector("body").append(br);
 document.querySelector("body").append(input);
 
 //2 -> Add the following attributes to the element 
 // : Change placeholder value of input to "username"
 // : Change the id of the button to "btn"
-btn.setAttribute("id","btn")
+button.setAttribute("id","btn")
 input.setAttribute("placeholder", "username");
 
 //3 -> Access the btn using the querySelector and button id. Change the button background color to blue and text color to white.
@@ -27,4 +28,10 @@ h1.classList.add("h1");
 
 document.body.appendChild(h1);
 
+//5 -> Create a p tag on the page and set it's text to "Assignment Set" where set is bold.
+p = document.createElement("p");
+p.innerHTML = "Assignment <b>Set</b>";
 
+// p.innerHTML = "<b>set</b>";
+
+document.body.appendChild(p);
