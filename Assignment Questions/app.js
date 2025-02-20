@@ -10,5 +10,9 @@ document.querySelector("body").append(btn);
 document.querySelector("body").append(br);
 document.querySelector("body").append(input);
 
-//2 ->
+//2 -> Add the following attributes to the element 
+// : Change placeholder value of input to "username"
+// : Change the id of the button to "btn"
+btn.setAttribute("id","btn")
+input.setAttribute("placeholder", "username");
 
